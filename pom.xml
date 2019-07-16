@@ -8,7 +8,7 @@
   <packaging>war</packaging>
   <version>1.0</version>
   <name>Jagadeesh-devops-project</name>
-  <description>War file deployment testing on Apache Tomcat</description>
+  <description>War file deployment testing on Apache Tomcat-Testing</description>
 	
   <properties>
 	    <spring.version>4.1.4.RELEASE</spring.version>
