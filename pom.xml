@@ -27,15 +27,15 @@
   </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/KCTechnologies/Maven-Web-Project</connection>
-        <developerConnection>scm:git:https://github.com/KCTechnologies/Maven-Web-Project</developerConnection>
+        <connection>scm:git:https://github.com/devopsbatch15/Devops-web-project.git</connection>
+        <developerConnection>scm:https://github.com/devopsbatch15/Devops-web-project</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/KCTechnologies/Maven-Web-Project</url>
+        <url>https://github.com/devopsbatch15/Devops-web-project</url>
     </scm>
 	
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/KCTechnologies/Maven-Web-Project/issues</url>
+        <url>https://github.com/devopsbatch15/Devops-web-project/issues</url>
     </issueManagement>
 	
 	
@@ -97,9 +97,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-	<configuration>
-          <webXml>WebContent\WEB-INF\web.xml</webXml>
-        </configuration>
         <version>3.6.0</version>
         <configuration>
           <source>1.7</source>
